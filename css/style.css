@@ -1,0 +1,15 @@
+.title {
+    background-color: #294969;
+    color: red;
+    padding: 10px 15px;
+    border: 12px solid #ffa949;
+    border-bottom-color: #cf7919;
+}
+
+img {
+    border: 10px solid darkgray;
+    border-bottom-color: darkslategray;
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
