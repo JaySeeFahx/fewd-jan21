@@ -1,15 +1,57 @@
+/* Mobile First */
 .title {
-    background-color: #294969;
-    color: red;
-    padding: 10px 15px;
-    border: 12px solid #ffa949;
-    border-bottom-color: #cf7919;
+  background-color: #294969;
+  color: red;
+  padding: 10px 15px;
+  border: 12px solid #ffa949;
+  border-bottom-color: #cf7919;
 }
 
-img {
-    border: 10px solid darkgray;
-    border-bottom-color: darkslategray;
+.puppy {
+  border: 10px solid darkgray;
+  border-bottom-color: darkslategray;
+  width: 90%;
+  height: auto;
+  margin: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background: white;
+  margin: 10px;
+}
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Tablet Second*/
+@media screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+
+  .puppy {
     width: 500px;
     height: auto;
-    margin: 10px;
+  }
+}
+
+/* Desktop Last*/
+@media screen and (min-width: 1100px) {
+  body {
+    background-color: pink;
+  }
+
+  .puppy {
+    width: 600px;
+    height: auto;
+  }
 }
