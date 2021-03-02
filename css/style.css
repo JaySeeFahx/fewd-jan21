@@ -49,6 +49,11 @@ a:hover {
   background-color: black;
 }
 
+ol {
+  background: purple;
+  color: white;
+}
+
 /* Tablet Second*/
 @media screen and (min-width: 600px) {
   body {
